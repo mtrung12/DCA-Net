@@ -21,6 +21,7 @@ giờ I-arrive_time.time
 10 I-arrive_time.time
 phút I-arrive_time.time
 flight
+
 cho O
 tôi O
 biết O
@@ -34,6 +35,7 @@ giữa O
 và O
 đà_nẵng B-toloc.city_name
 flight
+
 tôi O
 muốn O
 biết O
@@ -51,6 +53,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 có O
 những O
 chuyến O
@@ -76,6 +79,7 @@ ngày B-return_date.day_number
 tháng B-return_date.month_name
 8 I-return_date.month_name
 flight
+
 tôi O
 sẽ O
 bay O
@@ -84,6 +88,7 @@ hải_phòng B-fromloc.city_name
 đến O
 vinh B-toloc.city_name
 flight
+
 ok O
 , O
 bạn O
@@ -104,11 +109,13 @@ cà_mau B-toloc.city_name
 được O
 không O
 airfare
+
 từ O
 quảng_ninh B-fromloc.city_name
 đến O
 đà_nẵng B-toloc.city_name
 flight
+
 những O
 chuyến O
 bay O
@@ -123,6 +130,7 @@ nhơn I-fromloc.city_name
 đến O
 vinh B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -142,6 +150,7 @@ sáng I-depart_time.start_time
 giờ I-depart_time.end_time
 chiều I-depart_time.end_time
 flight
+
 các O
 chuyến O
 bay O
@@ -153,6 +162,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -162,6 +172,7 @@ hồ_chí_minh I-fromloc.city_name
 đến O
 florida B-toloc.state_name
 flight
+
 tôi O
 muốn O
 biết O
@@ -178,6 +189,7 @@ từ O
 đến O
 hà_nội B-toloc.city_name
 airfare
+
 ok O
 được O
 đó O
@@ -203,6 +215,7 @@ một_chiều B-round_trip
 rẻ B-cost_relative
 nhất I-cost_relative
 flight
+
 cho O
 tôi O
 biết O
@@ -218,6 +231,7 @@ beirut B-fromloc.city_name
 washington B-toloc.city_name
 dc B-toloc.state_code
 airfare
+
 các O
 chuyến O
 bay O
@@ -236,6 +250,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 tôi O
 đang O
 quan_tâm O
@@ -248,6 +263,7 @@ cần_thơ B-fromloc.city_name
 đi O
 cà_mau B-toloc.city_name
 flight
+
 tôi O
 muốn O
 đặt O
@@ -278,6 +294,7 @@ ngày B-return_date.day_number
 tháng B-return_date.month_name
 2 I-return_date.month_name
 flight
+
 tôi O
 đang O
 tìm O
@@ -295,6 +312,7 @@ dừng O
 ở O
 moscow B-stoploc.city_name
 flight
+
 những O
 hạn_chế O
 của O
@@ -302,6 +320,7 @@ ap68 B-restriction_code
 là O
 gì O
 restriction
+
 có O
 những O
 loại O
@@ -315,6 +334,7 @@ sẵn O
 quy B-city_name
 nhơn I-city_name
 ground_service
+
 chữ_viết O
 tắt O
 co B-airline_code
@@ -323,6 +343,7 @@ nghĩa O
 là O
 gì O
 abbreviation
+
 một O
 chuyến O
 bay O
@@ -340,6 +361,7 @@ ba I-depart_date.day_name
 sắp B-depart_date.date_relative
 tới I-depart_date.date_relative
 flight
+
 liệt_kê O
 cho O
 tôi O
@@ -355,6 +377,7 @@ các O
 ngày O
 thứ_sáu B-depart_date.day_name
 flight
+
 những O
 chuyến O
 bay O
@@ -371,6 +394,7 @@ một O
 ngày O
 thứ_bảy B-depart_date.day_name
 flight
+
 trên O
 các O
 chuyến O
@@ -394,6 +418,7 @@ nào O
 được O
 sử_dụng O
 aircraft#flight
+
 tôi O
 cần O
 một O
@@ -411,6 +436,7 @@ lúc O
 giờ I-arrive_time.time
 tối I-arrive_time.time
 flight
+
 các O
 chuyến O
 bay O
@@ -422,6 +448,7 @@ huế B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 vietjet B-airline_name
 có O
 chuyến O
@@ -432,6 +459,7 @@ huế B-fromloc.city_name
 phú_quốc B-toloc.city_name
 không O
 flight
+
 tôi O
 muốn O
 một O
@@ -448,6 +476,7 @@ vào O
 buổi B-depart_time.period_of_day
 chiều I-depart_time.period_of_day
 flight
+
 có O
 những O
 hạng O
@@ -467,6 +496,7 @@ từ O
 ninh B-toloc.city_name
 ba I-toloc.city_name
 flight
+
 tìm O
 cho O
 tôi O
@@ -479,6 +509,7 @@ hải_phòng B-fromloc.city_name
 đến O
 bangkok B-toloc.city_name
 flight
+
 ok O
 tôi O
 sẽ O
@@ -509,6 +540,7 @@ trước B-depart_time.time_relative
 10 B-depart_time.time
 giờ I-depart_time.time
 aircraft
+
 cho O
 tôi O
 biết O
@@ -526,6 +558,7 @@ hạ_cánh O
 ở O
 buôn_ma_thuột B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -540,6 +573,7 @@ vào O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 cho O
 tôi O
 thông_tin O
@@ -568,6 +602,7 @@ trước B-depart_time.time_relative
 giờ I-depart_time.time
 trưa I-depart_time.time
 flight
+
 cách O
 đắt B-cost_relative
 nhất I-cost_relative
@@ -579,6 +614,7 @@ bay O
 brasília B-toloc.city_name
 ? O
 flight
+
 cho O
 tôi O
 biết O
@@ -592,6 +628,7 @@ hà_nội B-fromloc.city_name
 đến O
 welshpool B-toloc.city_name
 airfare
+
 các O
 chuyến O
 bay O
@@ -609,6 +646,7 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 liệt_kê O
 giúp O
 tôi O
@@ -626,6 +664,7 @@ hạ_cánh O
 trước B-arrive_time.time_relative
 nửa_đêm B-arrive_time.period_of_day
 flight
+
 tôi O
 cần O
 một O
@@ -644,11 +683,13 @@ dừng O
 ở O
 doha B-stoploc.city_name
 flight
+
 quy B-fromloc.city_name
 nhơn I-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 hãng O
 hàng_không O
 nào O
@@ -659,6 +700,7 @@ tắt O
 là O
 vna B-airline_code
 abbreviation
+
 tôi O
 muốn O
 có O
@@ -678,6 +720,7 @@ mùng I-depart_date.day_number
 tháng B-depart_date.month_name
 1 I-depart_date.month_name
 flight
+
 những O
 chuyến O
 bay O
@@ -691,6 +734,7 @@ busan B-fromloc.city_name
 đến O
 hải_phòng B-toloc.city_name
 flight
+
 cho O
 tôi O
 danh_sách O
@@ -709,6 +753,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 những O
 chuyến O
 bay O
@@ -725,6 +770,7 @@ phục_vụ O
 bữa B-meal_description
 trưa I-meal_description
 flight
+
 những O
 chuyến O
 bay O
@@ -734,6 +780,7 @@ toronto B-fromloc.city_name
 thành_phố B-toloc.city_name
 hồ_chí_minh I-toloc.city_name
 flight
+
 chuyến O
 bay O
 nào O
@@ -751,6 +798,7 @@ chín I-depart_date.day_number
 tháng B-depart_date.month_name
 sáu I-depart_date.month_name
 flight
+
 chuyến O
 bay O
 nào O
@@ -766,6 +814,7 @@ lúc O
 giờ I-arrive_time.time
 tối I-arrive_time.time
 flight
+
 liệt_kê O
 tổng_số O
 chuyến O
@@ -778,6 +827,7 @@ của O
 bamboo B-airline_name
 airways I-airline_name
 quantity
+
 cho O
 tôi O
 biết O
@@ -795,6 +845,7 @@ vào O
 buổi B-depart_time.period_of_day
 chiều I-depart_time.period_of_day
 flight_time
+
 cho O
 tôi O
 các O
@@ -816,6 +867,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 sáu I-depart_date.month_name
 flight
+
 vui_lòng O
 liệt_kê O
 tất_cả O
@@ -831,6 +883,7 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 cho O
 tôi O
 xem O
@@ -842,6 +895,7 @@ côn_đảo B-fromloc.city_name
 đến O
 quảng_ninh B-toloc.state_name
 flight
+
 vui_lòng O
 cho O
 tôi O
@@ -859,6 +913,7 @@ và O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 cho O
 tôi O
 biết O
@@ -873,6 +928,7 @@ sáng B-period_of_day
 thứ B-day_name
 hai I-day_name
 ground_service
+
 chuyến O
 bay O
 nào O
@@ -884,6 +940,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 tìm O
 cho O
 tôi O
@@ -919,6 +976,7 @@ vào O
 cùng B-return_date.date_relative
 ngày I-return_date.date_relative
 flight
+
 cho O
 tôi O
 biết O
@@ -935,6 +993,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 7 I-depart_date.month_name
 flight
+
 tôi O
 muốn O
 biết O
@@ -955,6 +1014,7 @@ hà_nội B-toloc.city_name
 vietnam B-airline_name
 airlines I-airline_name
 flight_time
+
 cho O
 tôi O
 các O
@@ -965,6 +1025,7 @@ hà_nội B-fromloc.city_name
 đến O
 tuy_hoà B-toloc.city_name
 flight
+
 vui_lòng O
 liệt_kê O
 lịch_trình B-flight_time
@@ -979,6 +1040,7 @@ các O
 đêm B-depart_time.period_of_day
 thứ_sáu B-depart_date.day_name
 flight_time
+
 mất O
 bao_lâu O
 để O
@@ -993,6 +1055,7 @@ thành_phố O
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 distance
+
 chắc_chắn O
 rồi O
 , O
@@ -1021,10 +1084,12 @@ ngày B-arrive_date.day_number
 tháng B-arrive_date.month_name
 7 I-arrive_date.month_name
 aircraft
+
 đà_lạt B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -1036,6 +1101,7 @@ cà_mau B-fromloc.city_name
 đến O
 đà_nẵng B-toloc.city_name
 airfare#flight
+
 các O
 chuyến O
 bay O
@@ -1046,6 +1112,7 @@ quá_cảnh O
 thành_phố B-stoploc.city_name
 hồ_chí_minh I-stoploc.city_name
 flight
+
 có O
 những O
 chuyến O
@@ -1064,6 +1131,7 @@ huế B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 giá O
 vé O
 khứ_hồi B-round_trip
@@ -1076,6 +1144,7 @@ dưới B-cost_relative
 2 B-fare_amount
 triệu I-fare_amount
 airfare
+
 liệt_kê O
 các O
 chuyến O
@@ -1087,6 +1156,7 @@ hà_nội B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 flight
+
 giá O
 vé O
 từ O
@@ -1102,6 +1172,7 @@ tư I-depart_date.day_name
 là O
 bao_nhiêu O
 airfare
+
 những O
 chuyến O
 bay O
@@ -1113,6 +1184,7 @@ kinh I-fromloc.city_name
 đến O
 đà_lạt B-toloc.city_name
 flight
+
 vui_lòng O
 cho O
 tôi O
@@ -1128,12 +1200,14 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 các O
 chuyến O
 bay O
 đến O
 hà_nội B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -1145,6 +1219,7 @@ nhất I-flight_mod
 sân_bay B-toloc.airport_name
 london-stansted I-toloc.airport_name
 flight
+
 vietnam B-airline_name
 airlines I-airline_name
 có O
@@ -1155,6 +1230,7 @@ bay O
 hạng B-class_type
 nhất I-class_type
 quantity
+
 cho O
 tôi O
 lịch_trình B-flight_time
@@ -1170,6 +1246,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight_time
+
 cho O
 tôi O
 xem O
@@ -1185,6 +1262,7 @@ sáng I-period_of_day
 thứ B-day_name
 tư I-day_name
 ground_service
+
 chuyến O
 bay O
 cuối_cùng B-flight_mod
@@ -1193,6 +1271,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -1214,6 +1293,7 @@ năm I-depart_date.day_name
 và O
 thứ_sáu B-depart_date.day_name
 flight
+
 cho O
 tôi O
 xem O
@@ -1226,6 +1306,7 @@ hải_phòng B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 tôi O
 cần O
 đến O
@@ -1237,6 +1318,7 @@ tư I-depart_date.day_name
 từ O
 đà_lạt B-fromloc.city_name
 flight
+
 từ O
 đà_lạt B-fromloc.city_name
 đến O
@@ -1255,6 +1337,7 @@ giờ I-arrive_time.time
 tối I-arrive_time.time
 mai B-arrive_date.today_relative
 flight
+
 tôi O
 sẽ O
 cần O
@@ -1266,6 +1349,7 @@ xe_hơi B-transport_type
 new B-city_name
 york I-city_name
 ground_service
+
 cho O
 tôi O
 các O
@@ -1279,6 +1363,7 @@ vào O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 tôi O
 muốn O
 đặt O
@@ -1297,6 +1382,7 @@ mùng I-depart_date.day_number
 tháng B-depart_date.month_name
 4 I-depart_date.month_name
 flight
+
 các O
 chuyến O
 bay O
@@ -1312,6 +1398,7 @@ tháng B-depart_date.month_name
 năm O
 2020 B-depart_date.year
 flight
+
 một O
 chiếc O
 limousine B-transport_type
@@ -1327,6 +1414,7 @@ có O
 giá O
 bao_nhiêu O
 ground_fare
+
 có O
 chuyến O
 bay O
@@ -1345,6 +1433,7 @@ thành_phố B-stoploc.city_name
 hồ_chí_minh I-stoploc.city_name
 không O
 flight
+
 thời_gian B-flight_time
 của O
 các O
@@ -1356,6 +1445,7 @@ hà_nội B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight_time
+
 từ O
 đà_nẵng B-fromloc.city_name
 đến O
@@ -1365,6 +1455,7 @@ vào O
 buổi B-depart_time.period_of_day
 sáng I-depart_time.period_of_day
 flight
+
 phi_cơ O
 boeing O
 737 B-aircraft_code
@@ -1373,6 +1464,7 @@ chứa O
 bao_nhiêu O
 hành_khách O
 capacity
+
 tôi O
 muốn O
 một O
@@ -1393,6 +1485,7 @@ dừng O
 ở O
 moscow B-stoploc.city_name
 flight
+
 cảm_ơn O
 bạn O
 vì O
@@ -1422,6 +1515,7 @@ vào O
 sáng B-depart_time.period_of_day
 sớm B-depart_time.period_mod
 flight
+
 chuyến O
 bay O
 cuối_cùng B-flight_mod
@@ -1434,6 +1528,7 @@ lúc O
 mấy O
 giờ B-flight_time
 flight_time
+
 cho O
 tôi O
 chuyến O
@@ -1452,6 +1547,7 @@ và O
 đến O
 côn_đảo B-toloc.city_name
 flight
+
 có O
 chuyến O
 bay O
@@ -1466,6 +1562,7 @@ từ O
 cà_mau B-toloc.city_name
 không O
 flight
+
 chuyến O
 bay O
 rẻ B-cost_relative
@@ -1480,6 +1577,7 @@ vé O
 là O
 bao_nhiêu O
 airfare
+
 giá O
 vé O
 một_chiều B-round_trip
@@ -1501,6 +1599,7 @@ tháng B-depart_date.month_name
 là O
 bao_nhiêu O
 airfare
+
 chỉ O
 cho O
 tôi O
@@ -1517,6 +1616,7 @@ sau B-depart_time.time_relative
 giờ I-depart_time.time
 chiều I-depart_time.time
 flight
+
 chuyến O
 bay O
 hạng B-class_type
@@ -1530,6 +1630,7 @@ rời O
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -1547,6 +1648,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 8 I-depart_date.month_name
 flight
+
 hiển_thị O
 các O
 chuyến O
@@ -1558,6 +1660,7 @@ phú_quốc B-fromloc.city_name
 đến O
 đà_nẵng B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -1566,6 +1669,7 @@ quảng_ninh B-fromloc.city_name
 đến O
 tacoma B-toloc.city_name
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -1590,6 +1694,7 @@ sau B-arrive_time.time_relative
 giờ I-arrive_time.time
 chiều I-arrive_time.time
 flight
+
 cho O
 tôi O
 tất_cả O
@@ -1613,6 +1718,7 @@ tháng B-depart_date.month_name
 năm B-depart_date.year
 2020 I-depart_date.year
 flight
+
 có O
 chuyến O
 bay O
@@ -1627,6 +1733,7 @@ và O
 hải_phòng B-toloc.city_name
 không O
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -1642,6 +1749,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 cho O
 tôi O
 danh_sách O
@@ -1662,6 +1770,7 @@ giá O
 vé O
 tương_ứng O
 airfare#flight
+
 được O
 rồi O
 , O
@@ -1679,6 +1788,7 @@ bradford B-fromloc.city_name
 hà_nội B-toloc.city_name
 không O
 flight
+
 hiển_thị O
 các O
 chuyến O
@@ -1697,6 +1807,7 @@ giờ I-arrive_time.start_time
 1 B-arrive_time.end_time
 giờ I-arrive_time.end_time
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -1711,6 +1822,7 @@ hà_nội B-fromloc.city_name
 viêng B-toloc.city_name
 chăn I-toloc.city_name
 flight
+
 tôi O
 muốn O
 một O
@@ -1722,6 +1834,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 có O
 chuyến O
 bay O
@@ -1738,6 +1851,7 @@ buổi B-arrive_time.period_of_day
 tối I-arrive_time.period_of_day
 không O
 flight
+
 chuyến O
 bay O
 đầu_tiên B-flight_mod
@@ -1751,6 +1865,7 @@ phục_vụ O
 bữa B-meal_description
 trưa I-meal_description
 flight
+
 liệt_kê O
 danh_sách O
 các O
@@ -1761,6 +1876,7 @@ busan B-fromloc.city_name
 và O
 huế B-toloc.city_name
 flight
+
 cho O
 tôi O
 một O
@@ -1778,6 +1894,7 @@ trước B-depart_time.time_relative
 giờ I-depart_time.time
 sáng I-depart_time.time
 flight
+
 liệt_kê O
 các O
 chuyến O
@@ -1794,6 +1911,7 @@ từ O
 đến O
 cà_mau B-toloc.city_name
 flight
+
 giá O
 vé O
 khứ_hồi B-round_trip
@@ -1806,6 +1924,7 @@ cần_thơ B-toloc.city_name
 là O
 bao_nhiêu O
 airfare
+
 giúp O
 tôi O
 sắp_xếp O
@@ -1820,6 +1939,7 @@ của O
 us B-airline_name
 air I-airline_name
 flight
+
 tôi O
 muốn O
 xem O
@@ -1842,6 +1962,7 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 cho O
 tôi O
 chuyến O
@@ -1869,6 +1990,7 @@ phục_vụ O
 bữa B-meal_description
 sáng I-meal_description
 flight
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -1878,6 +2000,7 @@ hà_nội B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 liệt_kê O
 các O
 chuyến O
@@ -1896,6 +2019,7 @@ sau B-depart_time.time_relative
 giờ I-depart_time.time
 chiều I-depart_time.time
 flight
+
 liệt_kê O
 các O
 chuyến O
@@ -1918,6 +2042,7 @@ dưới B-cost_relative
 20 B-fare_amount
 triệu I-fare_amount
 flight
+
 liệt_kê O
 các O
 chuyến O
@@ -1932,6 +2057,7 @@ huế B-fromloc.city_name
 đến O
 sài_gòn B-toloc.city_name
 flight
+
 tôi O
 cần O
 tìm O
@@ -1946,12 +2072,14 @@ phú_quốc B-toloc.city_name
 vào O
 thứ_sáu B-depart_date.day_name
 aircraft
+
 han B-airport_code
 đại_diện O
 cho O
 từ O
 gì O
 abbreviation
+
 hiển_thị O
 giá O
 của O
@@ -1969,6 +2097,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 7 I-depart_date.month_name
 airfare
+
 những O
 chuyến O
 bay O
@@ -1990,6 +2119,7 @@ sớm B-depart_time.period_mod
 thứ B-depart_date.day_name
 ba I-depart_date.day_name
 flight
+
 những O
 chuyến O
 bay O
@@ -2000,6 +2130,7 @@ dc B-fromloc.state_code
 đến O
 toronto B-toloc.city_name
 flight
+
 tất_cả O
 các O
 chuyến O
@@ -2019,6 +2150,7 @@ trước B-depart_time.time_relative
 giờ I-depart_time.time
 sáng I-depart_time.time
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -2029,6 +2161,7 @@ huế B-fromloc.city_name
 đến O
 đà_lạt B-toloc.city_name
 flight
+
 tôi O
 cần O
 một O
@@ -2045,6 +2178,7 @@ hà_nội B-fromloc.city_name
 đến O
 tokyo B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -2063,6 +2197,7 @@ sân_bay B-fromloc.airport_name
 doncaster I-fromloc.airport_name
 sheffield I-fromloc.airport_name
 airline
+
 bạn O
 có O
 chuyến O
@@ -2075,6 +2210,7 @@ kinh I-fromloc.city_name
 chicago B-toloc.city_name
 không O
 flight
+
 yn B-fare_basis_code
 là O
 dạng O
@@ -2084,6 +2220,7 @@ của O
 từ O
 gì O
 abbreviation
+
 các O
 chuyến O
 bay O
@@ -2095,6 +2232,7 @@ lumpur I-fromloc.city_name
 đến O
 buôn_ma_thuột B-toloc.city_name
 flight
+
 giá O
 vé O
 cho O
@@ -2108,6 +2246,7 @@ dad B-toloc.airport_code
 là O
 bao_nhiêu O
 airfare
+
 liệt_kê O
 giá O
 vé O
@@ -2123,6 +2262,7 @@ boston B-fromloc.city_name
 đến O
 philadelphia B-toloc.city_name
 airfare
+
 giá O
 vé O
 khứ_hồi B-round_trip
@@ -2135,6 +2275,7 @@ dưới B-cost_relative
 2 B-fare_amount
 triệu I-fare_amount
 airfare
+
 có O
 chuyến O
 bay O
@@ -2152,6 +2293,7 @@ new B-toloc.city_name
 york I-toloc.city_name
 không O
 flight
+
 tôi O
 cần O
 chi_phí O
@@ -2170,6 +2312,7 @@ huế B-fromloc.city_name
 thành_phố B-toloc.city_name
 hồ_chí_minh I-toloc.city_name
 airfare
+
 cho O
 tôi O
 xem O
@@ -2184,6 +2327,7 @@ sáng B-depart_time.period_of_day
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 airfare
+
 cho O
 tôi O
 các O
@@ -2196,6 +2340,7 @@ và O
 thành_phố B-toloc.city_name
 đà_nẵng I-toloc.city_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -2215,6 +2360,7 @@ ngày B-arrive_date.day_number
 tháng B-arrive_date.month_name
 5 I-arrive_date.month_name
 flight
+
 tìm O
 giá O
 vé O
@@ -2226,6 +2372,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 airfare
+
 chỉ O
 cho O
 tôi O
@@ -2237,6 +2384,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 vui_lòng O
 chỉ O
 cho O
@@ -2249,6 +2397,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -2264,6 +2413,7 @@ sân_bay B-fromloc.airport_name
 liên I-fromloc.airport_name
 khương I-fromloc.airport_name
 airline
+
 hiển_thị O
 giá O
 vé O
@@ -2279,6 +2429,7 @@ hải_phòng B-fromloc.city_name
 đến O
 toronto B-toloc.city_name
 airfare
+
 chuyến O
 bay O
 muộn B-flight_mod
@@ -2288,6 +2439,7 @@ rời O
 đến O
 hà_nội B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -2296,6 +2448,7 @@ hà_nội B-fromloc.city_name
 đến O
 đồng_hới B-toloc.city_name
 flight
+
 chuyến O
 bay O
 vn B-airline_code
@@ -2310,6 +2463,7 @@ phục_vụ O
 bữa B-meal
 ăn_không I-meal
 flight
+
 có O
 những O
 chuyến O
@@ -2331,6 +2485,7 @@ từ O
 giờ I-arrive_time.end_time
 chiều I-arrive_time.end_time
 flight
+
 cho O
 tôi O
 các O
@@ -2347,6 +2502,7 @@ nhơn I-fromloc.city_name
 đến O
 sài_gòn B-toloc.city_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -2365,6 +2521,7 @@ ngày O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 tôi O
 muốn O
 có O
@@ -2380,6 +2537,7 @@ huế B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -2390,6 +2548,7 @@ giữa O
 và O
 đà_nẵng B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -2408,6 +2567,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 có O
 những O
 chuyến O
@@ -2422,6 +2582,7 @@ và O
 thành_phố B-toloc.city_name
 vinh I-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -2434,6 +2595,7 @@ cần_thơ B-fromloc.city_name
 đến O
 hạ_long B-toloc.city_name
 airfare#flight
+
 bạn O
 có_thể O
 cho O
@@ -2453,6 +2615,7 @@ và O
 phú_quốc B-toloc.city_name
 không O
 airline
+
 mỗi O
 hãng O
 hàng_không O
@@ -2466,6 +2629,7 @@ hạng O
 chỗ O
 k B-fare_basis_code
 quantity
+
 tuyệt O
 đấy O
 , O
@@ -2501,6 +2665,7 @@ buổi B-depart_time.period_of_day
 sáng I-depart_time.period_of_day
 không O
 flight
+
 cho O
 tôi O
 biết O
@@ -2518,6 +2683,7 @@ trước B-depart_time.time_relative
 giữa B-depart_time.time
 trưa I-depart_time.time
 flight
+
 tôi O
 cần O
 một O
@@ -2536,6 +2702,7 @@ tokyo B-fromloc.city_name
 thành_phố B-toloc.city_name
 hồ_chí_minh I-toloc.city_name
 flight
+
 liệt_kê O
 cho O
 tôi O
@@ -2544,6 +2711,7 @@ các O
 loại O
 máy_bay O
 aircraft
+
 tôi O
 muốn O
 một O
@@ -2556,6 +2724,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 hiển_thị O
 các O
 chuyến O
@@ -2565,12 +2734,14 @@ cần_thơ B-fromloc.city_name
 đến O
 thanh_hoá B-toloc.city_name
 flight
+
 sgn B-airport_code
 nằm O
 ở O
 thành_phố O
 nào O
 city
+
 có O
 bao_nhiêu O
 thành_phố O
@@ -2584,6 +2755,7 @@ bay O
 hạng B-class_type
 nhất I-class_type
 quantity
+
 bạn O
 có_thể O
 vui_lòng O
@@ -2602,6 +2774,7 @@ hà_nội B-toloc.city_name
 được O
 không O
 flight
+
 những O
 chuyến O
 bay O
@@ -2621,6 +2794,7 @@ chuyến O
 ở O
 sài_gòn B-stoploc.city_name
 flight
+
 tôi O
 muốn O
 xem O
@@ -2633,6 +2807,7 @@ huế B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -2650,6 +2825,7 @@ quá_cảnh O
 tại O
 doha B-stoploc.city_name
 flight
+
 tôi O
 muốn O
 biết O
@@ -2669,6 +2845,7 @@ trưa I-depart_time.time
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -2680,6 +2857,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cần_thơ B-toloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -2695,6 +2873,7 @@ sài_gòn B-fromloc.city_name
 new B-toloc.city_name
 york I-toloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -2706,6 +2885,7 @@ hà_nội B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 airfare
+
 cho O
 tôi O
 biết O
@@ -2719,6 +2899,7 @@ cam_ranh B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 airfare
+
 bạn O
 có_thể O
 chỉ O
@@ -2737,6 +2918,7 @@ cà_mau B-toloc.city_name
 được O
 không O
 flight
+
 tôi O
 muốn O
 bay O
@@ -2750,6 +2932,7 @@ thứ B-depart_date.day_name
 năm I-depart_date.day_name
 tới B-depart_date.date_relative
 flight
+
 tôi O
 đang O
 lên O
@@ -2772,6 +2955,7 @@ giúp O
 tôi O
 không O
 flight
+
 tôi O
 muốn O
 tìm O
@@ -2784,6 +2968,7 @@ cam_ranh B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 tôi O
 muốn O
 đi O
@@ -2795,6 +2980,7 @@ vào O
 thứ B-depart_date.day_name
 ba I-depart_date.day_name
 flight
+
 điện_biên_phủ B-fromloc.city_name
 đến O
 cần_thơ B-toloc.city_name
@@ -2803,6 +2989,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 7 I-depart_date.month_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -2814,6 +3001,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 những O
 hãng O
 hàng_không O
@@ -2824,6 +3012,7 @@ hà_nội B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 airline
+
 được O
 rồi O
 , O
@@ -2847,6 +3036,7 @@ vé O
 hạng B-class_type
 nhất I-class_type
 airfare
+
 tôi O
 muốn O
 đặt O
@@ -2865,6 +3055,7 @@ hai I-class_type
 được O
 giảm_giá O
 flight
+
 tôi O
 có_thể O
 bay O
@@ -2874,6 +3065,7 @@ hà_nội B-fromloc.city_name
 phú_quốc B-toloc.city_name
 không O
 flight
+
 tôi O
 muốn O
 bay O
@@ -2887,6 +3079,7 @@ một B-flight_stop
 trạm I-flight_stop
 dừng I-flight_stop
 flight
+
 có O
 bao_nhiêu O
 chuyến O
@@ -2898,6 +3091,7 @@ khởi_hành O
 từ O
 hà_nội B-fromloc.city_name
 quantity
+
 liệt_kê O
 giúp O
 tôi O
@@ -2920,6 +3114,7 @@ vào O
 thứ B-arrive_date.day_name
 tư I-arrive_date.day_name
 flight
+
 tôi O
 muốn O
 tìm O
@@ -2940,6 +3135,7 @@ chiều I-depart_time.period_of_day
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 có O
 chuyến O
 bay O
@@ -2956,6 +3152,7 @@ dừng O
 dubai B-stoploc.city_name
 không O
 flight
+
 tôi O
 muốn O
 biết O
@@ -2971,6 +3168,7 @@ hải_phòng B-fromloc.city_name
 bắc B-toloc.city_name
 kinh I-toloc.city_name
 flight
+
 cho O
 tôi O
 tất_cả O
@@ -2994,6 +3192,7 @@ sau B-depart_time.time_relative
 giữa B-depart_time.time
 trưa I-depart_time.time
 flight
+
 các O
 chuyến O
 bay O
@@ -3002,6 +3201,7 @@ từ O
 đến O
 hà_nội B-toloc.city_name
 flight
+
 bạn O
 có O
 chuyến O
@@ -3017,6 +3217,7 @@ giờ I-depart_time.time
 sáng I-depart_time.time
 không O
 flight
+
 chuyến O
 bay O
 nào O
@@ -3026,6 +3227,7 @@ hải_phòng B-fromloc.city_name
 thành_phố B-toloc.city_name
 vũng_tàu I-toloc.city_name
 flight
+
 chuyến O
 bay O
 nào O
@@ -3036,6 +3238,7 @@ hải_phòng B-fromloc.city_name
 đến O
 hui B-toloc.airport_code
 flight
+
 có O
 chuyến O
 bay O
@@ -3053,6 +3256,7 @@ dừng O
 tokyo B-stoploc.city_name
 không O
 flight
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -3066,6 +3270,7 @@ vào O
 ngày O
 chủ_nhật B-depart_date.day_name
 flight
+
 có O
 chuyến O
 bay O
@@ -3083,6 +3288,7 @@ mười I-depart_date.month_name
 hai I-depart_date.month_name
 không O
 flight
+
 cho O
 tôi O
 các O
@@ -3096,6 +3302,7 @@ hải_phòng B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -3106,6 +3313,7 @@ từ O
 đến O
 côn_đảo B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -3116,6 +3324,7 @@ từ O
 đến O
 busan B-toloc.city_name
 flight
+
 hiển_thị O
 cho O
 tôi O
@@ -3136,6 +3345,7 @@ mùa O
 hè O
 tới O
 airfare#flight_time
+
 loại O
 máy_bay O
 nào O
@@ -3148,6 +3358,7 @@ sau B-depart_time.time_relative
 giữa B-depart_time.time
 trưa I-depart_time.time
 aircraft
+
 tôi O
 muốn O
 biết O
@@ -3165,6 +3376,7 @@ từ O
 đến O
 huế B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -3176,6 +3388,7 @@ sáng I-depart_time.period_of_day
 từ O
 toronto B-fromloc.city_name
 flight
+
 có O
 phương_tiện O
 giao_thông O
@@ -3188,6 +3401,7 @@ sân_bay B-airport_name
 cát I-airport_name
 bi I-airport_name
 ground_service
+
 các O
 chuyến O
 bay O
@@ -3199,6 +3413,7 @@ dừng B-flight_stop
 ở O
 đâu O
 airport
+
 cho O
 tôi O
 biết O
@@ -3211,6 +3426,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -3221,6 +3437,7 @@ hph B-fromloc.airport_code
 đến O
 côn_đảo B-toloc.city_name
 flight
+
 tìm O
 giá O
 vé O
@@ -3232,6 +3449,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 airfare
+
 các O
 chuyến O
 bay O
@@ -3241,6 +3459,7 @@ dc B-fromloc.state_code
 đến O
 copenhagen B-toloc.city_name
 flight
+
 cho O
 tôi O
 thông_tin O
@@ -3269,6 +3488,7 @@ trước B-depart_time.time_relative
 giờ I-depart_time.time
 sáng I-depart_time.time
 flight
+
 các O
 chuyến O
 bay O
@@ -3278,6 +3498,7 @@ và O
 washington B-toloc.city_name
 dc B-toloc.state_code
 flight
+
 mã O
 giá O
 vé O
@@ -3292,6 +3513,7 @@ huế B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 abbreviation
+
 có O
 chuyến O
 bay O
@@ -3306,6 +3528,7 @@ trạm I-flight_stop
 dừng I-flight_stop
 không O
 flight
+
 liệt_kê O
 thời_gian B-flight_time
 khởi_hành I-flight_time
@@ -3328,6 +3551,7 @@ hơn I-depart_time.time_relative
 giờ I-depart_time.time
 chiều I-depart_time.time
 flight_time
+
 có O
 hãng O
 hàng_không O
@@ -3350,6 +3574,7 @@ phút I-depart_time.time
 sáng I-depart_time.time
 không O
 airline
+
 hôm_nay B-depart_date.today_relative
 vietnam B-airline_name
 airlines I-airline_name
@@ -3360,6 +3585,7 @@ bay O
 hạng B-class_type
 nhất I-class_type
 quantity
+
 cho O
 tôi O
 biết O
@@ -3376,6 +3602,7 @@ vào O
 thứ B-depart_date.day_name
 ba I-depart_date.day_name
 flight
+
 tôi O
 ở O
 buôn_ma_thuột B-fromloc.city_name
@@ -3388,6 +3615,7 @@ huế B-toloc.city_name
 vào O
 chủ_nhật B-depart_date.day_name
 flight
+
 cho O
 tôi O
 biết O
@@ -3400,6 +3628,7 @@ huế B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 tôi O
 muốn O
 bay O
@@ -3421,6 +3650,7 @@ vào O
 buổi B-depart_time.period_of_day
 tối I-depart_time.period_of_day
 flight
+
 cho O
 tôi O
 xem O
@@ -3441,6 +3671,7 @@ sau B-depart_time.time_relative
 giờ I-depart_time.time
 sáng I-depart_time.time
 flight
+
 có O
 chuyến O
 bay O
@@ -3461,6 +3692,7 @@ tháng B-arrive_date.month_name
 7 I-arrive_date.month_name
 không O
 flight
+
 liệt_kê O
 các O
 chuyến O
@@ -3473,6 +3705,7 @@ tokyo B-toloc.city_name
 của O
 vna B-airline_code
 flight
+
 các O
 chuyến O
 bay O
@@ -3484,6 +3717,7 @@ osaka B-fromloc.city_name
 washington B-toloc.city_name
 dc B-toloc.state_code
 flight
+
 có O
 những O
 chuyến O
@@ -3496,6 +3730,7 @@ paris B-fromloc.city_name
 đến O
 sài_gòn B-toloc.city_name
 flight
+
 chuyến O
 bay O
 nào O
@@ -3506,6 +3741,7 @@ seoul B-toloc.city_name
 vào O
 thứ_bảy B-depart_date.day_name
 flight
+
 giá O
 vé O
 của O
@@ -3522,6 +3758,7 @@ phú_quốc B-fromloc.city_name
 là O
 bao_nhiêu O
 airfare
+
 chỉ O
 cho O
 tôi O
@@ -3537,6 +3774,7 @@ vào O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 loại O
 phương_tiện O
 giao_thông O
@@ -3549,6 +3787,7 @@ sân_bay B-airport_name
 tân_sơn I-airport_name
 nhất I-airport_name
 ground_service
+
 các O
 chuyến O
 bay O
@@ -3561,6 +3800,7 @@ tối B-depart_time.period_of_day
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -3571,6 +3811,7 @@ từ O
 liên B-fromloc.airport_name
 khương I-fromloc.airport_name
 flight
+
 vui_lòng O
 liệt_kê O
 tất_cả O
@@ -3583,6 +3824,7 @@ singapore B-fromloc.city_name
 đến O
 đà_lạt B-toloc.city_name
 flight
+
 tôi O
 muốn O
 bay O
@@ -3609,6 +3851,7 @@ ngày O
 hôm B-return_date.date_relative
 sau I-return_date.date_relative
 flight
+
 có O
 những O
 loại O
@@ -3619,6 +3862,7 @@ nào O
 ở O
 hà_nội B-city_name
 ground_service
+
 tôi O
 cần O
 một O
@@ -3635,6 +3879,7 @@ dừng O
 ở O
 doha B-stoploc.city_name
 flight
+
 chuyến O
 bay O
 nào O
@@ -3647,6 +3892,7 @@ cà_mau B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -3659,6 +3905,7 @@ cà_mau B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 liệt_kê O
 giúp O
 tôi O
@@ -3676,6 +3923,7 @@ các O
 sân_bay O
 khác O
 flight
+
 hph B-airport_code
 là O
 viết O
@@ -3684,6 +3932,7 @@ của O
 từ O
 gì O
 abbreviation
+
 chuyến O
 bay O
 nào O
@@ -3693,6 +3942,7 @@ huế B-fromloc.city_name
 thành_phố B-toloc.city_name
 đà_lạt I-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -3718,6 +3968,7 @@ zurich B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight_time
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -3729,6 +3980,7 @@ toronto B-fromloc.city_name
 thành_phố B-toloc.city_name
 đà_nẵng I-toloc.city_name
 flight
+
 tôi O
 muốn O
 xem O
@@ -3741,6 +3993,7 @@ hà_nội B-fromloc.city_name
 đến O
 havana B-toloc.city_name
 flight
+
 mã O
 giá O
 vé O
@@ -3748,6 +4001,7 @@ c B-fare_basis_code
 nghĩa_là O
 gì O
 abbreviation
+
 vietnam B-airline_name
 airlines I-airline_name
 bay O
@@ -3768,6 +4022,7 @@ hải_phòng B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 aircraft
+
 chuyến O
 bay O
 từ O
@@ -3778,6 +4033,7 @@ vào O
 buổi B-depart_time.period_of_day
 chiều I-depart_time.period_of_day
 flight
+
 chuyến O
 bay O
 đầu_tiên B-flight_mod
@@ -3789,6 +4045,7 @@ suvarnabhumi I-toloc.airport_name
 vào O
 ngày_mai B-depart_date.today_relative
 flight
+
 tôi O
 cần O
 biết O
@@ -3807,6 +4064,7 @@ hạ_cánh O
 ở O
 hà_nội B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -3818,6 +4076,7 @@ vào O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 giá O
 vé O
 rẻ B-cost_relative
@@ -3829,6 +4088,7 @@ hải_phòng B-toloc.city_name
 là O
 bao_nhiêu O
 airfare
+
 hãng O
 hàng_không O
 nào O
@@ -3836,6 +4096,7 @@ có O
 hạng B-class_type
 thương_gia I-class_type
 airline
+
 tôi O
 cần O
 một O
@@ -3860,6 +4121,7 @@ jakarta B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 có O
 những O
 chuyến O
@@ -3881,6 +4143,7 @@ ngày O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 loại O
 máy_bay O
 nào O
@@ -3899,6 +4162,7 @@ trước B-depart_time.time_relative
 giờ I-depart_time.time
 chiều I-depart_time.time
 aircraft
+
 tôi O
 muốn O
 biết O
@@ -3934,6 +4198,7 @@ ngày O
 thứ B-arrive_date.day_name
 tư I-arrive_date.day_name
 flight
+
 phương_tiện O
 giao_thông O
 đường_bộ O
@@ -3944,6 +4209,7 @@ tại O
 sân_bay B-airport_name
 đà_nẵng I-airport_name
 ground_service
+
 cho O
 tôi O
 các O
@@ -3957,6 +4223,7 @@ huế B-toloc.city_name
 và O
 đà_lạt B-toloc.city_name
 flight
+
 có O
 những O
 chuyến O
@@ -3968,6 +4235,7 @@ hải_phòng B-fromloc.city_name
 bắc B-toloc.city_name
 kinh I-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -3979,6 +4247,7 @@ vào O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 tôi O
 có_thể O
 có O
@@ -3998,6 +4267,7 @@ tháng B-depart_date.month_name
 7 I-depart_date.month_name
 không O
 flight
+
 có O
 những O
 chuyến O
@@ -4020,6 +4290,7 @@ trước B-arrive_time.time_relative
 giờ I-arrive_time.time
 tối I-arrive_time.time
 flight
+
 vui_lòng O
 liệt_kê O
 thời_gian B-flight_time
@@ -4029,6 +4300,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cần_thơ B-toloc.city_name
 flight_time
+
 chuyến O
 bay O
 khởi_hành O
@@ -4038,6 +4310,7 @@ tokyo B-fromloc.city_name
 thành_phố B-toloc.city_name
 đà_nẵng I-toloc.city_name
 flight
+
 liệt_kê O
 các O
 hạng O
@@ -4050,6 +4323,7 @@ hãng O
 hàng_không O
 cung_cấp O
 airfare
+
 cho O
 tôi O
 biết O
@@ -4068,11 +4342,13 @@ trung_tâm O
 thành_phố B-toloc.city_name
 hải_phòng I-toloc.city_name
 ground_service
+
 giao_thông O
 đường_bộ O
 ở O
 huế B-city_name
 ground_service
+
 giá O
 của O
 các O
@@ -4088,6 +4364,7 @@ sáng I-depart_time.period_of_day
 là O
 bao_nhiêu O
 airfare
+
 mất O
 bao_lâu O
 để O
@@ -4097,6 +4374,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 distance
+
 liệt_kê O
 giúp O
 tôi O
@@ -4115,6 +4393,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 có O
 chuyến O
 bay O
@@ -4130,6 +4409,7 @@ từ O
 phú_quốc B-toloc.city_name
 không O
 flight
+
 phương_tiện O
 giao_thông O
 đường_bộ O
@@ -4139,6 +4419,7 @@ sẵn O
 ở O
 huế B-city_name
 ground_service
+
 cho O
 tôi O
 xem O
@@ -4149,6 +4430,7 @@ từ O
 đến O
 phú_quốc B-toloc.city_name
 airfare
+
 tôi O
 muốn O
 thuê O
@@ -4158,6 +4440,7 @@ xe_hơi B-transport_type
 ở O
 cần_thơ B-city_name
 ground_service
+
 tôi O
 muốn O
 tìm O
@@ -4181,6 +4464,7 @@ phục_vụ O
 bữa B-meal_description
 trưa I-meal_description
 flight
+
 cho O
 tôi O
 xin O
@@ -4200,6 +4484,7 @@ sáng B-depart_time.period_of_day
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -4212,6 +4497,7 @@ và O
 đến O
 thanh_hoá B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -4220,6 +4506,7 @@ quảng_ninh B-fromloc.city_name
 đến O
 đà_nẵng B-toloc.city_name
 flight
+
 cho O
 tôi O
 các O
@@ -4234,12 +4521,14 @@ vào O
 sáng B-depart_time.period_of_day
 thứ_bảy B-depart_date.day_name
 flight
+
 hãng O
 hàng_không O
 cx B-airline_code
 là O
 gì O
 abbreviation
+
 tôi O
 cần O
 một O
@@ -4265,6 +4554,7 @@ muốn O
 ăn B-meal_description
 tối I-meal_description
 flight
+
 chuyến O
 bay O
 muộn B-flight_mod
@@ -4281,6 +4571,7 @@ thứ B-arrive_date.day_name
 hai I-arrive_date.day_name
 tới B-arrive_date.date_relative
 flight
+
 liệt_kê O
 giúp O
 tôi O
@@ -4296,12 +4587,14 @@ quốc_tế I-fromloc.airport_name
 nội I-fromloc.airport_name
 bài I-fromloc.airport_name
 flight
+
 dịch_vụ O
 xe O
 limousine B-transport_type
 ở O
 hải_phòng B-city_name
 ground_service
+
 mã O
 giá O
 vé O
@@ -4311,6 +4604,7 @@ nghĩa O
 là O
 gì O
 abbreviation
+
 có O
 chuyến O
 bay O
@@ -4321,6 +4615,7 @@ rời O
 huế B-fromloc.city_name
 không O
 flight
+
 vào O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
@@ -4335,12 +4630,14 @@ buôn_ma_thuột B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 khi O
 nào O
 máy_bay O
 rời O
 hải_phòng B-fromloc.city_name
 flight_time
+
 có O
 những O
 chuyến O
@@ -4357,6 +4654,7 @@ cà_mau B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -4372,6 +4670,7 @@ thanh_hoá B-toloc.city_name
 hoặc B-or
 hà_nội B-toloc.city_name
 flight
+
 loại O
 máy_bay O
 nào O
@@ -4390,6 +4689,7 @@ vào O
 buổi B-depart_time.period_of_day
 sáng I-depart_time.period_of_day
 aircraft
+
 các O
 chuyến O
 bay O
@@ -4398,6 +4698,7 @@ hải_phòng B-fromloc.city_name
 đến O
 tokyo B-toloc.city_name
 flight
+
 liệt_kê O
 các O
 chuyến O
@@ -4413,6 +4714,7 @@ cà_mau B-fromloc.city_name
 đến O
 hải_phòng B-toloc.city_name
 flight
+
 tất_cả O
 các O
 chuyến O
@@ -4423,6 +4725,7 @@ hà_nội B-fromloc.city_name
 new B-toloc.city_name
 york I-toloc.city_name
 flight
+
 hiển_thị O
 các O
 chuyến O
@@ -4432,6 +4735,7 @@ huế B-fromloc.city_name
 đến O
 tokyo B-toloc.city_name
 flight
+
 hiển_thị O
 các O
 chuyến O
@@ -4442,6 +4746,7 @@ hồ_chí_minh I-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 tôi O
 muốn O
 một O
@@ -4459,6 +4764,7 @@ phục_vụ O
 bữa B-meal_description
 tối I-meal_description
 flight
+
 cho O
 tôi O
 xem O
@@ -4474,6 +4780,7 @@ hà_nội B-fromloc.city_name
 đến O
 đà_lạt B-toloc.city_name
 airfare
+
 tôi O
 cần O
 một O
@@ -4491,6 +4798,7 @@ vào O
 chủ_nhật B-depart_date.day_name
 này B-depart_date.date_relative
 flight
+
 cho O
 tôi O
 chuyến O
@@ -4509,6 +4817,7 @@ sau B-depart_time.time_relative
 giờ I-depart_time.time
 tối I-depart_time.time
 flight
+
 vietnam B-airline_name
 airlines I-airline_name
 có O
@@ -4520,6 +4829,7 @@ và O
 huế B-toloc.city_name
 không O
 flight
+
 tôi O
 muốn O
 bay O
@@ -4539,6 +4849,7 @@ buổi B-depart_time.period_of_day
 tối I-depart_time.period_of_day
 muộn B-depart_time.period_mod
 flight
+
 các O
 chuyến O
 bay O
@@ -4551,6 +4862,7 @@ vào O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -4563,6 +4875,7 @@ cam_ranh B-fromloc.city_name
 los B-toloc.city_name
 angeles I-toloc.city_name
 flight
+
 bạn O
 có_thể O
 hiển_thị O
@@ -4585,6 +4898,7 @@ nữa O
 được O
 không O
 flight
+
 các O
 chuyến O
 bay O
@@ -4603,6 +4917,7 @@ sáng I-depart_time.period_of_day
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 airfare#flight
+
 những O
 chuyến O
 bay O
@@ -4623,6 +4938,7 @@ palermo B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -4641,6 +4957,7 @@ phục_vụ O
 bữa B-meal
 ăn I-meal
 flight
+
 chỉ O
 cho O
 tôi O
@@ -4654,6 +4971,7 @@ nhơn I-fromloc.city_name
 và O
 huế B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -4662,6 +4980,7 @@ từ O
 đến O
 huế B-toloc.city_name
 flight
+
 tất_cả O
 các O
 chuyến O
@@ -4679,6 +4998,7 @@ dưới B-cost_relative
 5 B-fare_amount
 triệu I-fare_amount
 flight
+
 cảm_ơn O
 , O
 vậy O
@@ -4694,6 +5014,7 @@ rạch_giá B-toloc.city_name
 là O
 gì O
 flight
+
 chỉ O
 cho O
 tôi O
@@ -4705,6 +5026,7 @@ rạch_giá B-fromloc.city_name
 đến O
 hải_phòng B-toloc.city_name
 flight
+
 mã O
 giá O
 vé O
@@ -4714,6 +5036,7 @@ nghĩa O
 là O
 gì O
 abbreviation
+
 cho O
 tôi O
 các O
@@ -4729,6 +5052,7 @@ khoảng B-arrive_time.time_relative
 4 B-arrive_time.time
 giờ I-arrive_time.time
 flight
+
 giá O
 vé O
 rẻ B-cost_relative
@@ -4743,6 +5067,7 @@ hạng O
 ghế O
 nào O
 airfare
+
 cho O
 tôi O
 tất_cả O
@@ -4759,10 +5084,12 @@ luxembourg B-toloc.city_name
 vào O
 chủ_nhật B-arrive_date.day_name
 flight
+
 sa B-days_code
 là O
 gì O
 abbreviation
+
 cho O
 tôi O
 biết O
@@ -4774,6 +5101,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 mã O
 giá O
 vé O
@@ -4781,6 +5109,7 @@ qo B-fare_basis_code
 nghĩa_là O
 gì O
 abbreviation
+
 tôi O
 cần O
 thông_tin O
@@ -4798,6 +5127,7 @@ vào O
 sáng B-depart_time.period_of_day
 sớm B-depart_time.period_mod
 flight
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -4811,6 +5141,7 @@ jakarta B-fromloc.city_name
 washington B-toloc.city_name
 dc B-toloc.state_code
 flight
+
 có O
 những O
 chuyến O
@@ -4823,6 +5154,7 @@ phú_quốc B-toloc.city_name
 từ O
 đà_lạt B-fromloc.city_name
 flight
+
 tôi O
 muốn O
 bay O
@@ -4831,6 +5163,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 vietnam B-airline_name
 airlines I-airline_name
 có O
@@ -4842,6 +5175,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 quantity
+
 jetstar B-airline_name
 có O
 chuyến O
@@ -4854,6 +5188,7 @@ kuala B-toloc.city_name
 lumpur I-toloc.city_name
 không O
 flight
+
 hiển_thị O
 cho O
 tôi O
@@ -4868,6 +5203,7 @@ melbourne B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 airfare
+
 và O
 chi_phí O
 để O
@@ -4879,6 +5215,7 @@ bournemouth I-fromloc.airport_name
 trung_tâm O
 thành_phố O
 ground_fare
+
 tất_cả O
 các O
 chuyến O
@@ -4892,6 +5229,7 @@ hải_phòng B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -4911,6 +5249,7 @@ dừng I-flight_stop
 ở O
 amsterdam B-stoploc.city_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -4926,6 +5265,7 @@ hà_nội B-fromloc.city_name
 đến O
 cam_ranh B-toloc.city_name
 flight
+
 tôi O
 muốn O
 đặt O
@@ -4944,10 +5284,12 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 7 I-depart_date.month_name
 flight
+
 tdh B-airport_code
 nghĩa_là O
 gì O
 abbreviation
+
 cho O
 tôi O
 biết O
@@ -4961,6 +5303,7 @@ chăn I-fromloc.city_name
 đến O
 côn_đảo B-toloc.city_name
 flight
+
 bạn O
 có O
 chuyến O
@@ -4973,6 +5316,7 @@ thành_phố B-fromloc.city_name
 buôn_ma_thuột B-toloc.city_name
 không O
 flight
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -4982,6 +5326,7 @@ hải_phòng B-fromloc.city_name
 đến O
 cà_mau B-toloc.city_name
 flight
+
 tôi O
 muốn O
 một O
@@ -4998,6 +5343,7 @@ vào O
 buổi B-depart_time.period_of_day
 sáng I-depart_time.period_of_day
 flight
+
 cho O
 tôi O
 biết O
@@ -5010,6 +5356,7 @@ hải_phòng B-fromloc.city_name
 đến O
 tuy_hoà B-toloc.city_name
 flight
+
 cho O
 tôi O
 các O
@@ -5028,6 +5375,7 @@ huế B-fromloc.city_name
 hoặc B-or
 đà_lạt B-fromloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -5042,6 +5390,7 @@ các O
 sân_bay O
 khác O
 flight
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -5056,6 +5405,7 @@ hà_nội B-fromloc.city_name
 đến O
 hải_phòng B-toloc.city_name
 flight
+
 giá O
 vé O
 khứ_hồi B-round_trip
@@ -5071,6 +5421,7 @@ phú_quốc B-toloc.city_name
 là O
 bao_nhiêu O
 airfare
+
 cho O
 tôi O
 biết O
@@ -5086,6 +5437,7 @@ tối B-depart_time.period_of_day
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 tôi O
 muốn O
 một O
@@ -5096,6 +5448,7 @@ cà_mau B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 flight
+
 cho O
 tôi O
 tất_cả O
@@ -5108,15 +5461,18 @@ quảng_ninh B-fromloc.city_name
 viêng B-toloc.city_name
 chăn I-toloc.city_name
 flight
+
 từ O
 đà_lạt B-fromloc.city_name
 đến O
 toronto B-toloc.city_name
 flight
+
 cam_ranh B-fromloc.city_name
 đến O
 côn_đảo B-toloc.city_name
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -5137,6 +5493,7 @@ dừng O
 ở O
 thanh_hoá B-stoploc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -5151,6 +5508,7 @@ hà_nội B-toloc.city_name
 vào O
 ngày_mai B-depart_date.today_relative
 flight
+
 có O
 chuyến O
 bay O
@@ -5169,6 +5527,7 @@ tháng B-depart_date.month_name
 8 I-depart_date.month_name
 không O
 flight
+
 hãng O
 hàng_không O
 nào O
@@ -5188,6 +5547,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 7 I-depart_date.month_name
 airline
+
 jetstar B-airline_name
 có O
 đường_bay O
@@ -5196,6 +5556,7 @@ viêng B-city_name
 chăn I-city_name
 không O
 flight
+
 cho O
 tôi O
 tất_cả O
@@ -5208,11 +5569,13 @@ nhơn I-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 giao_thông O
 đường_bộ O
 ở O
 huế B-city_name
 ground_service
+
 cho O
 tôi O
 xin O
@@ -5234,6 +5597,7 @@ trước B-arrive_time.time_relative
 giữa B-arrive_time.time
 trưa I-arrive_time.time
 flight
+
 hiển_thị O
 các O
 chuyến O
@@ -5245,6 +5609,7 @@ huế B-fromloc.city_name
 vào O
 thứ_bảy B-depart_date.day_name
 flight
+
 và O
 các O
 chuyến O
@@ -5259,6 +5624,7 @@ sau B-depart_time.time_relative
 giờ I-depart_time.time
 chiều I-depart_time.time
 flight
+
 ok O
 và O
 ngày O
@@ -5281,6 +5647,7 @@ khoảng B-depart_time.time_relative
 8 B-depart_time.time
 giờ I-depart_time.time
 flight
+
 tất_cả O
 các O
 chuyến O
@@ -5297,6 +5664,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 11 I-depart_date.month_name
 flight
+
 các O
 chuyến O
 bay O
@@ -5309,6 +5677,7 @@ hải_phòng B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 flight
+
 chuyến O
 bay O
 rẻ B-cost_relative
@@ -5324,6 +5693,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 9 I-depart_date.month_name
 flight
+
 chuyến O
 bay O
 từ O
@@ -5335,6 +5705,7 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 tôi O
 muốn O
 bay O
@@ -5352,6 +5723,7 @@ trước B-arrive_time.time_relative
 giờ I-arrive_time.time
 chiều I-arrive_time.time
 flight
+
 chuyến O
 bay O
 buổi B-depart_time.period_of_day
@@ -5365,6 +5737,7 @@ vào O
 buổi B-arrive_time.period_of_day
 chiều I-arrive_time.period_of_day
 flight
+
 tôi O
 muốn O
 xem O
@@ -5380,6 +5753,7 @@ trước B-arrive_time.time_relative
 giữa B-arrive_time.time
 trưa I-arrive_time.time
 flight
+
 tìm O
 giúp O
 tôi O
@@ -5417,6 +5791,7 @@ hải_phòng B-toloc.city_name
 cùng B-return_date.date_relative
 ngày I-return_date.date_relative
 flight
+
 vui_lòng O
 cho O
 tôi O
@@ -5436,6 +5811,7 @@ mùng I-depart_date.day_number
 tháng B-depart_date.month_name
 8 I-depart_date.month_name
 airfare
+
 tôi O
 muốn O
 biết O
@@ -5454,6 +5830,7 @@ buổi B-depart_time.period_of_day
 chiều I-depart_time.period_of_day
 thứ_sáu B-depart_date.day_name
 flight
+
 có O
 những O
 chuyến O
@@ -5471,12 +5848,14 @@ ngày B-flight_mod
 trong I-flight_mod
 tuần I-flight_mod
 flight
+
 hiển_thị O
 giao_thông O
 đường_bộ O
 ở O
 hà_nội B-city_name
 ground_service
+
 vui_lòng O
 chỉ O
 cho O
@@ -5498,10 +5877,12 @@ dừng O
 ở O
 istanbul B-stoploc.city_name
 airline
+
 đà_lạt B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 xe B-transport_type
 cho I-transport_type
 thuê I-transport_type
@@ -5509,6 +5890,7 @@ thuê I-transport_type
 washington B-city_name
 dc B-state_code
 ground_service
+
 vietnam B-airline_name
 airlines I-airline_name
 có O
@@ -5520,6 +5902,7 @@ quy B-fromloc.city_name
 nhơn I-fromloc.city_name
 không O
 flight
+
 cung_cấp O
 giúp O
 tôi O
@@ -5534,6 +5917,7 @@ cà_mau B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 aircraft
+
 cho O
 tôi O
 các O
@@ -5544,6 +5928,7 @@ huế B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 hạng O
 giá O
 vé O
@@ -5551,6 +5936,7 @@ h B-fare_basis_code
 là O
 gì O
 abbreviation
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -5566,6 +5952,7 @@ phục_vụ O
 bữa B-meal_description
 sáng I-meal_description
 flight
+
 có O
 những O
 chuyến O
@@ -5582,6 +5969,7 @@ ngày O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 có O
 loại O
 phương_tiện O
@@ -5591,6 +5979,7 @@ nào O
 ở O
 đà_lạt B-city_name
 ground_service
+
 tôi O
 có_thể O
 có O
@@ -5616,6 +6005,7 @@ sau B-depart_time.time_relative
 đó I-depart_time.time_relative
 không O
 flight
+
 một O
 chuyến O
 bay O
@@ -5634,6 +6024,7 @@ giá O
 là O
 bao_nhiêu O
 airfare
+
 tôi O
 muốn O
 đi O
@@ -5659,6 +6050,7 @@ phù_hợp O
 được O
 không O
 flight
+
 mã O
 giá O
 vé O
@@ -5666,12 +6058,14 @@ yn B-fare_basis_code
 nghĩa_là O
 gì O
 abbreviation
+
 các O
 sân_bay O
 ở O
 new B-city_name
 york I-city_name
 airport
+
 tôi O
 muốn O
 sắp_xếp O
@@ -5700,6 +6094,7 @@ kia O
 từ O
 đà_nẵng B-fromloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -5721,6 +6116,7 @@ vé O
 của O
 chúng O
 airfare#flight
+
 có O
 những O
 loại O
@@ -5731,6 +6127,7 @@ nào O
 ở O
 cà_mau B-city_name
 ground_service
+
 các O
 chuyến O
 bay O
@@ -5748,6 +6145,7 @@ từ O
 giờ I-arrive_time.end_time
 chiều I-arrive_time.end_time
 flight
+
 mã O
 giá O
 vé O
@@ -5755,6 +6153,7 @@ qw B-fare_basis_code
 nghĩa_là O
 gì O
 abbreviation
+
 cho O
 biết O
 các O
@@ -5766,6 +6165,7 @@ york I-fromloc.city_name
 đến O
 dartmouth B-toloc.city_name
 flight
+
 tôi O
 cần O
 thông_tin O
@@ -5776,6 +6176,7 @@ giao_thông O
 denver B-city_name
 colorado B-state_name
 ground_service
+
 liệt_kê O
 các O
 chuyến O
@@ -5789,6 +6190,7 @@ của O
 vietnam B-airline_name
 airlines I-airline_name
 flight
+
 cho O
 tôi O
 biết O
@@ -5807,6 +6209,7 @@ sân_bay B-fromloc.airport_name
 quốc_tế I-fromloc.airport_name
 incheon I-fromloc.airport_name
 airline
+
 liệt_kê O
 các O
 chuyến O
@@ -5822,6 +6225,7 @@ vào O
 buổi B-depart_time.period_of_day
 chiều I-depart_time.period_of_day
 flight
+
 hãng O
 hàng_không O
 nào O
@@ -5833,6 +6237,7 @@ cần_thơ B-city_name
 và O
 cà_mau B-city_name
 airline
+
 hãng B-airline_name
 hàng_không I-airline_name
 vietnam I-airline_name
@@ -5844,6 +6249,7 @@ bay O
 hạng B-class_type
 nhất I-class_type
 quantity
+
 vui_lòng O
 hiển_thị O
 các O
@@ -5855,6 +6261,7 @@ nhơn I-toloc.city_name
 từ O
 huế B-fromloc.city_name
 flight
+
 bây_giờ O
 hãy O
 cho O
@@ -5868,6 +6275,7 @@ cần_thơ B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -5887,6 +6295,7 @@ sáng B-depart_time.period_of_day
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 tôi O
 muốn O
 bay O
@@ -5902,6 +6311,7 @@ cà_mau B-fromloc.city_name
 đến O
 melbourne B-toloc.city_name
 flight
+
 mã O
 giá O
 vé O
@@ -5909,6 +6319,7 @@ f B-fare_basis_code
 là O
 gì O
 abbreviation
+
 các O
 chuyến O
 bay O
@@ -5924,6 +6335,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 9 I-depart_date.month_name
 flight
+
 cho O
 biết O
 tất_cả O
@@ -5938,6 +6350,7 @@ huế B-fromloc.city_name
 và O
 đà_lạt B-toloc.city_name
 airline
+
 giá O
 vé O
 rẻ B-cost_relative
@@ -5948,6 +6361,7 @@ lumpur I-fromloc.city_name
 đến O
 đà_nẵng B-toloc.city_name
 airfare
+
 vietnam B-airline_name
 airlines I-airline_name
 có O
@@ -5960,6 +6374,7 @@ mã O
 dịch_vụ O
 f B-fare_basis_code
 quantity
+
 tìm O
 một O
 chuyến O
@@ -5981,6 +6396,7 @@ khoảng B-arrive_time.time_relative
 giờ I-arrive_time.time
 chiều I-arrive_time.time
 flight
+
 cần_thơ B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
@@ -5991,6 +6407,7 @@ mùng I-depart_date.day_number
 tháng B-depart_date.month_name
 1 I-depart_date.month_name
 flight
+
 cho O
 tôi O
 biết O
@@ -6006,6 +6423,7 @@ phú_quốc B-fromloc.city_name
 đến O
 cam_ranh B-toloc.city_name
 airfare#flight_time
+
 những O
 hãng O
 hàng_không O
@@ -6018,6 +6436,7 @@ hải_phòng B-fromloc.city_name
 đến O
 jakarta B-toloc.city_name
 airline
+
 có O
 những O
 loại O
@@ -6028,6 +6447,7 @@ nào O
 ở O
 đà_lạt B-city_name
 ground_service
+
 sân_bay O
 ở O
 dallas B-fromloc.airport_name
@@ -6037,6 +6457,7 @@ cách O
 dallas B-fromloc.city_name
 bao_xa O
 distance
+
 liệt_kê O
 tất_cả O
 các O
@@ -6054,6 +6475,7 @@ giá O
 rẻ B-cost_relative
 nhất I-cost_relative
 flight
+
 chỉ O
 cho O
 tôi O
@@ -6066,11 +6488,13 @@ nhơn I-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 giao_thông O
 đường_bộ O
 ở O
 sài_gòn B-city_name
 ground_service
+
 vui_lòng O
 liệt_kê O
 tất_cả O
@@ -6088,6 +6512,7 @@ và O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 chuyến O
 bay O
 vn B-airline_code
@@ -6105,6 +6530,7 @@ ngày O
 thứ_bảy B-depart_date.day_name
 không O
 flight
+
 tôi O
 muốn O
 đặt O
@@ -6131,6 +6557,7 @@ moscow B-stoploc.city_name
 trên O
 đường O
 flight
+
 tôi O
 muốn O
 bay O
@@ -6146,6 +6573,7 @@ vé O
 rẻ B-cost_relative
 nhất I-cost_relative
 flight
+
 cho O
 tôi O
 biết O
@@ -6157,6 +6585,7 @@ quảng_ninh B-fromloc.city_name
 đến O
 dili B-toloc.city_name
 flight
+
 có O
 những O
 chuyến O
@@ -6172,6 +6601,7 @@ osaka B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 giải_thích O
 sự O
 hạn_chế O
@@ -6179,6 +6609,7 @@ của O
 ap B-restriction_code
 80 I-restriction_code
 restriction
+
 tôi O
 muốn O
 đi O
@@ -6194,6 +6625,7 @@ chân O
 ở O
 huế B-stoploc.city_name
 flight
+
 thông_tin O
 về O
 chuyến O
@@ -6204,6 +6636,7 @@ phú_quốc B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 chuyến O
 bay O
 buổi B-depart_time.period_of_day
@@ -6216,6 +6649,7 @@ manila B-fromloc.city_name
 thành_phố B-toloc.city_name
 hồ_chí_minh I-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -6231,6 +6665,7 @@ tháng B-depart_date.month_name
 năm B-depart_date.year
 2020 I-depart_date.year
 flight
+
 có O
 những O
 chuyến O
@@ -6245,6 +6680,7 @@ huế B-fromloc.city_name
 đến O
 sgn B-toloc.airport_code
 flight
+
 cho O
 tôi O
 danh_sách O
@@ -6264,6 +6700,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 7 I-depart_date.month_name
 flight
+
 bamboo B-airline_name
 airways I-airline_name
 269 B-flight_number
@@ -6283,6 +6720,7 @@ lúc O
 mấy O
 giờ B-flight_time
 flight_time
+
 tôi O
 muốn O
 biết O
@@ -6303,6 +6741,7 @@ cà_mau B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 cho O
 tôi O
 các O
@@ -6313,6 +6752,7 @@ quảng_ninh B-fromloc.city_name
 đến O
 côn_đảo B-toloc.city_name
 flight
+
 có O
 những O
 chuyến O
@@ -6325,6 +6765,7 @@ lumpur I-fromloc.city_name
 đến O
 huế B-toloc.city_name
 flight
+
 cho O
 tôi O
 xem O
@@ -6339,6 +6780,7 @@ hà_nội B-fromloc.city_name
 đến O
 đà_lạt B-toloc.city_name
 airfare
+
 các O
 chuyến O
 bay O
@@ -6347,6 +6789,7 @@ huế B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 hãng O
 hàng_không O
 nào O
@@ -6365,6 +6808,7 @@ qua O
 thành_phố B-stoploc.city_name
 hồ_chí_minh I-stoploc.city_name
 airline
+
 tất_cả O
 các O
 chuyến O
@@ -6380,6 +6824,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 11 I-depart_date.month_name
 flight
+
 giá O
 vé O
 khứ_hồi B-round_trip
@@ -6393,6 +6838,7 @@ dưới B-cost_relative
 triệu I-fare_amount
 đồng I-fare_amount
 airfare
+
 hiển_thị O
 các O
 chuyến O
@@ -6417,6 +6863,7 @@ dưới B-cost_relative
 triệu I-fare_amount
 đồng I-fare_amount
 flight
+
 tôi O
 muốn O
 các O
@@ -6440,6 +6887,7 @@ giờ I-arrive_time.time
 45 I-arrive_time.time
 sáng I-arrive_time.time
 flight
+
 hiển_thị O
 giá O
 vé O
@@ -6455,6 +6903,7 @@ hàng_không I-airline_name
 vietnam I-airline_name
 airlines I-airline_name
 airfare
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -6465,10 +6914,12 @@ bài I-fromloc.airport_name
 và O
 bwi B-toloc.airport_code
 flight
+
 mô_tả O
 sân_bay B-airport_name
 cần_thơ I-airport_name
 airport
+
 cho O
 tôi O
 biết O
@@ -6487,6 +6938,7 @@ chuyến I-connect
 ở O
 sài_gòn B-stoploc.city_name
 flight
+
 liệt_kê O
 tất_cả O
 các O
@@ -6506,6 +6958,7 @@ chăn I-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 doha B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
@@ -6513,6 +6966,7 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 liệt_kê O
 giúp O
 tôi O
@@ -6533,6 +6987,7 @@ portsmouth B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 airfare#flight
+
 hãng O
 hàng_không O
 nào O
@@ -6540,6 +6995,7 @@ sử_dụng O
 mã O
 hp B-airline_code
 abbreviation
+
 tìm O
 một O
 chuyến O
@@ -6552,6 +7008,7 @@ vào O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 bạn O
 có_thể O
 cho O
@@ -6573,6 +7030,7 @@ thành_phố B-toloc.city_name
 được O
 không O
 ground_service
+
 danh_sách O
 tất_cả O
 các O
@@ -6590,6 +7048,7 @@ mùng I-depart_date.day_number
 tháng B-depart_date.month_name
 8 I-depart_date.month_name
 flight
+
 cho O
 tôi O
 biết O
@@ -6604,6 +7063,7 @@ chăn I-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 flight
+
 bất_cứ O
 chuyến O
 bay O
@@ -6623,6 +7083,7 @@ sẽ O
 đến O
 singapore B-toloc.city_name
 flight
+
 cho O
 tôi O
 biết O
@@ -6634,6 +7095,7 @@ hải_phòng B-fromloc.city_name
 đến O
 huế B-toloc.city_name
 flight
+
 cho O
 tôi O
 các O
@@ -6644,6 +7106,7 @@ từ O
 đến O
 bangkok B-toloc.city_name
 flight
+
 tôi O
 cần O
 một O
@@ -6664,11 +7127,13 @@ mùng I-depart_date.day_number
 tháng B-depart_date.month_name
 5 I-depart_date.month_name
 flight
+
 quy B-fromloc.city_name
 nhơn I-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -6678,6 +7143,7 @@ hải_phòng B-fromloc.city_name
 đến O
 phú_quốc B-toloc.city_name
 flight
+
 có O
 dịch_vụ O
 xe B-transport_type
@@ -6687,11 +7153,13 @@ sân_bay B-fromloc.airport_name
 đà_nẵng I-fromloc.airport_name
 không O
 ground_service
+
 giao_thông O
 đường_bộ O
 ở O
 hải_phòng B-city_name
 ground_service
+
 chuyến O
 bay O
 sớm B-flight_mod
@@ -6705,17 +7173,20 @@ phục_vụ O
 bữa B-meal
 ăn I-meal
 flight
+
 mã O
 qw B-fare_basis_code
 nghĩa_là O
 gì O
 abbreviation
+
 vna B-airline_code
 là O
 hãng O
 hàng_không O
 nào O
 abbreviation
+
 cần O
 bao_nhiêu O
 tiền O
@@ -6728,6 +7199,7 @@ thuê I-transport_type
 ở O
 london B-city_name
 ground_fare
+
 cho O
 tôi O
 các O
@@ -6743,6 +7215,7 @@ thanh_hoá B-fromloc.city_name
 đến O
 đồng_hới B-toloc.city_name
 flight
+
 tôi O
 quan_tâm O
 đến O
@@ -6754,6 +7227,7 @@ từ O
 đến O
 cà_mau B-toloc.city_name
 flight
+
 các O
 chuyến O
 bay O
@@ -6765,6 +7239,7 @@ vào O
 thứ B-depart_date.day_name
 tư I-depart_date.day_name
 flight
+
 có O
 chuyến O
 bay O
@@ -6776,6 +7251,7 @@ huế B-fromloc.city_name
 phú_quốc B-toloc.city_name
 không O
 flight
+
 hiển_thị O
 tất_cả O
 các O
@@ -6791,6 +7267,7 @@ ngày B-depart_date.day_number
 tháng B-depart_date.month_name
 8 I-depart_date.month_name
 flight
+
 hãng O
 hàng_không O
 nào O
@@ -6804,6 +7281,7 @@ nhơn I-fromloc.city_name
 và O
 quảng_ninh B-toloc.city_name
 airline
+
 tôi O
 muốn O
 đi O
@@ -6815,6 +7293,7 @@ vào O
 thứ B-depart_date.day_name
 hai I-depart_date.day_name
 flight
+
 chuyến O
 bay O
 tiếp_theo B-flight_mod
@@ -6831,6 +7310,7 @@ airlines I-airline_name
 là O
 gì O
 flight
+
 cho O
 tôi O
 biết O
@@ -6848,6 +7328,7 @@ trưa I-depart_time.time
 ngày O
 chủ_nhật B-depart_date.day_name
 flight
+
 loại O
 máy_bay O
 nào O
@@ -6864,6 +7345,7 @@ trước B-depart_time.time_relative
 giờ I-depart_time.time
 trưa I-depart_time.time
 aircraft
+
 chỉ O
 cho O
 tôi O
@@ -6882,6 +7364,7 @@ sau B-depart_time.time_relative
 trưa B-depart_time.time
 ngày_mai B-depart_date.today_relative
 flight
+
 thuê O
 một O
 chiếc O
@@ -6892,6 +7375,7 @@ mất O
 bao_nhiêu O
 tiền O
 ground_fare
+
 chuyến O
 bay O
 vn B-airline_code
@@ -6906,6 +7390,7 @@ loại O
 máy_bay O
 nào O
 aircraft
+
 liệt_kê O
 tất_cả O
 các O
@@ -6923,6 +7408,7 @@ vào O
 thứ B-depart_date.day_name
 năm I-depart_date.day_name
 flight
+
 tôi O
 muốn O
 có O
@@ -6935,6 +7421,7 @@ từ O
 đến O
 hải_phòng B-toloc.city_name
 flight
+
 chỉ O
 cho O
 tôi O
@@ -6950,6 +7437,7 @@ vào O
 buổi B-depart_time.period_of_day
 sáng I-depart_time.period_of_day
 flight
+
 chuyến O
 bay O
 nào O
@@ -6959,6 +7447,7 @@ thành_phố B-fromloc.city_name
 đến O
 quảng_ninh B-toloc.state_name
 flight
+
 cho O
 tôi O
 xem O
@@ -6976,6 +7465,7 @@ vào O
 buổi B-depart_time.period_of_day
 chiều I-depart_time.period_of_day
 flight
+
 giá O
 vé O
 hạng B-class_type
@@ -6988,6 +7478,7 @@ hải_phòng B-toloc.city_name
 là O
 bao_nhiêu O
 airfare
+
 có O
 bao_nhiêu O
 giá O
@@ -7000,6 +7491,7 @@ gevena B-fromloc.city_name
 đến O
 hà_nội B-toloc.city_name
 quantity
+
 tôi O
 muốn O
 biết O
@@ -7017,6 +7509,7 @@ vào O
 buổi B-arrive_time.period_of_day
 chiều I-arrive_time.period_of_day
 flight
+
 có O
 những O
 chuyến O
@@ -7033,6 +7526,7 @@ của O
 tuần O
 tới B-depart_date.date_relative
 flight
+
 có O
 chuyến O
 bay O
@@ -7049,6 +7543,7 @@ hải_phòng B-fromloc.city_name
 huế B-toloc.city_name
 không O
 flight
+
 các O
 chuyến O
 bay O
@@ -7059,6 +7554,7 @@ từ O
 đến O
 cà_mau B-toloc.city_name
 flight
+
 thông_tin O
 về O
 các O
@@ -7070,6 +7566,7 @@ hà_nội B-fromloc.city_name
 quy B-toloc.city_name
 nhơn I-toloc.city_name
 flight
+
 những O
 chuyến O
 bay O
@@ -7091,6 +7588,7 @@ giờ I-arrive_time.time
 rưỡi I-arrive_time.time
 chiều I-arrive_time.time
 flight
+
 cho O
 tôi O
 biết O
@@ -7102,6 +7600,7 @@ giao_thông O
 ở O
 cam_ranh B-city_name
 ground_service
+
 bạn O
 có O
 chuyến O
@@ -7121,3 +7620,4 @@ chuyến O
 phoenix B-stoploc.city_name
 không O
 flight
+
