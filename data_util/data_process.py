@@ -7,7 +7,7 @@ from torch.utils.data import TensorDataset
 from torch.utils.data import DataLoader
 import torch
 from data_util import config
-
+from underthesea import word_tokenize
 
 class InputFeatures(object):
     def __init__(self, input_id, domain_label_id, input_mask, feature_list):
@@ -28,8 +28,13 @@ def read_corpus(path, max_length, intent2idx, slot2idx, vocab, is_train=True):
 
     :return:
     """
-    char2idx = {"a":1,"b":2,"c":3,"d":4,"e":5,"f":6,"g":7,"h":8,"i":9,"j":10,"k":11,"l":12,"m":13,"n":14,
-                "o":15,"p":16,"q":17,"r":18,"s":19,"t":20,"u":21,"v":22,"w":23,"x":24,"y":25,"z":26,"'":27,"unk":28}
+    # Define all valid Vietnamese characters, digits, and special chars
+    vietnamese_chars = "aáàảãạăắằẳẵặâấầẩẫậbcdđeéèẻẽẹêếềểễệfghiíìỉĩịjklmnoóòỏõọôốồổỗộơớờởỡợpqrstuúùủũụưứừửữựvxyýỳỷỹỵz0123456789'"
+    
+    # Create the char2idx dictionary dynamically
+    char2idx = {char: i + 1 for i, char in enumerate(list(vietnamese_chars))}
+    char2idx["unk"] = len(char2idx) + 1
+    
     file = open(path, encoding='utf-8')
     content = file.readlines()
     file.close()
@@ -134,7 +139,7 @@ def build_vocab(file_path, max_size, min_freq):
             if not lin:
                 continue
             content = lin.split('\t')[0]
-            for word in jieba_cut(content):
+            for word in vi_tokenize(content):
                 vocab_dic[word] = vocab_dic.get(word, 0) + 1
 
         vocab_list = sorted([_ for _ in vocab_dic.items() if _[1] >= min_freq], key=lambda x: x[1], reverse=True)
@@ -184,6 +189,23 @@ def lord_label_dict(path):
     f.close()
     return id2label, label2id
 
+def vi_tokenize(sen):
+    """
+    Tokenizes a Vietnamese sentence.
+    """
+    sen_string = sen.strip()
+    # Use underthesea to tokenize the sentence
+    tokens = word_tokenize(sen_string)
+    
+    # Create a set of punctuation to remove
+    # You can customize this list
+    punctuation_set = set(string.punctuation)
+    vietnamese_punctuation = "“”‘’"
+    punctuation_set.update(list(vietnamese_punctuation))
+
+    # Filter out punctuation tokens and convert to lowercase
+    sen_list = [token.lower() for token in tokens if token not in punctuation_set]
+    return sen_list
 
 def jieba_cut(sen):
     sen_string = sen.strip()

@@ -2,7 +2,7 @@ import os
 
 root_dir = os.path.expanduser("~")
 # path
-data_path = "./data/atis/"
+data_path = "./data/phoatis/"
 vocab_path = data_path + "vocab.txt"
 model_save_dir = "./ckpt/"
 model_path = "atis_model.bin"

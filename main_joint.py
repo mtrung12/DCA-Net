@@ -84,7 +84,7 @@ def run_train(train_data_file, dev_data_file):
     vocab_file = open(config.data_path + "vocab.txt", "r", encoding="utf-8")
     vocab_list = [word.strip() for word in vocab_file]
     if not os.path.exists(config.data_path + "emb_word.txt"):
-        emb_file = "D:/emb/glove.6B/glove.6B.300d.txt"
+        emb_file = "/kaggle/input/w2v-vn-word-level/word2vec_vi_words_300dims.txt"
         embeddings = read_emb(emb_file, vocab_list)
         emb_write = open(config.data_path + "/emb_word.txt", "w", encoding="utf-8")
         for emb in embeddings:
