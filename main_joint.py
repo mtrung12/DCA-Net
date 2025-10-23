@@ -27,7 +27,7 @@ def set_seed():
         torch.cuda.manual_seed_all(config.seed)
 
 
-def dev(model, dev_loader, idx2slot):
+def dev(model, dev_loader, idx2slot, idx2intent, results_writer):
 
     model.eval()
     eval_loss_intent = 0
@@ -36,8 +36,9 @@ def dev(model, dev_loader, idx2slot):
     true_intents = []
     pred_slots = []
     true_slots = []
-    total_wrong = 0
     
+    total_wrong = 0 
+
     for i, batch in enumerate(tqdm(dev_loader, desc="Evaluating")):
         inputs, char_lists, slot_labels, intent_labels, masks, = batch
         if use_cuda:
@@ -47,30 +48,33 @@ def dev(model, dev_loader, idx2slot):
         loss_intent, loss_slot = model.loss1(logits_intent, logits_slot, intent_labels, slot_labels, masks)
 
         pred_intent, pred_slot = model.pred_intent_slot(logits_intent, logits_slot, masks)
-        pred_intents.extend(pred_intent.cpu().numpy().tolist())
-        true_intents.extend(intent_labels.cpu().numpy().tolist())
+        
+        batch_pred_intents = pred_intent.cpu().numpy().tolist()
+        batch_true_intents = intent_labels.cpu().numpy().tolist()
+        batch_slot_labels = slot_labels.cpu().numpy().tolist()
+        
+        pred_intents.extend(batch_pred_intents)
+        true_intents.extend(batch_true_intents)
+        
         eval_loss_intent += loss_intent.item()
         eval_loss_slot += loss_slot.item()
-        slot_labels = slot_labels.cpu().numpy().tolist()
 
+        # Fix: Use 'idx_in_batch' to avoid shadowing 'i' from enumerate
         for idx_in_batch in range(len(pred_slot)):
             pred = []
             true = []
-            # Get full slot lists (including <start>/<end>)
             for j in range(len(pred_slot[idx_in_batch])):
                 pred.append(idx2slot[pred_slot[idx_in_batch][j].item()])
                 true.append(idx2slot[batch_slot_labels[idx_in_batch][j]])
             
-            # Add to metric lists (stripping <start>/<end>)
             pred_slots.append(pred[1:-1])
             true_slots.append(true[1:-1])
 
-            # --- ADDED: Error checking and logging ---
             pred_intent_id = batch_pred_intents[idx_in_batch]
             true_intent_id = batch_true_intents[idx_in_batch]
 
             intent_is_wrong = (pred_intent_id != true_intent_id)
-            slots_are_wrong = (pred != true) # Check full list
+            slots_are_wrong = (pred != true) 
 
             if intent_is_wrong or slots_are_wrong:
                 total_wrong += 1
@@ -88,6 +92,7 @@ def dev(model, dev_loader, idx2slot):
                 results_writer.write(f"Slot Pred: {pred_slot_str}\n")
                 results_writer.write(f"Slot True: {true_slot_str}\n")
                 results_writer.write("-" * 40 + "\n")
+
     # slot f1, p, r
     slot_metrics = SlotMetrics(true_slots, pred_slots)
     slot_f1, slot_p, slot_r = slot_metrics.get_slot_metrics()
@@ -104,6 +109,7 @@ def dev(model, dev_loader, idx2slot):
                                                        intent_acc, slot_f1, sent_acc))
     model.train()
 
+    # Return all 6 values
     return intent_acc, slot_f1, sent_acc, ave_loss_intent, ave_loss_slot, total_wrong
 
 
