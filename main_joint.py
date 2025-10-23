@@ -170,7 +170,7 @@ def run_test(test_data_file):
     test_dir = os.path.join(config.data_path, test_data_file)
     test_loader = read_corpus(test_dir, max_length=config.max_len, intent2idx=intent2idx, slot2idx=slot2idx,
                               vocab=vocab, is_train=False)
-    model = torch.load(config.model_save_dir + config.model_path, map_location=device)
+    model = torch.load(config.model_save_dir + config.model_path, map_location=device, weights_only=False)
     model.eval()
     pred_intents = []
     true_intents = []
