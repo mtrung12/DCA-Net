@@ -1,10 +1,10 @@
-AddToPlaylist-O
+AddToPlaylist-
 AddToPlaylist-artist
 AddToPlaylist-entity_name
 AddToPlaylist-music_item
 AddToPlaylist-playlist
 AddToPlaylist-playlist_owner
-BookRestaurant-O
+BookRestaurant-
 BookRestaurant-city
 BookRestaurant-country
 BookRestaurant-cuisine
@@ -19,7 +19,7 @@ BookRestaurant-sort
 BookRestaurant-spatial_relation
 BookRestaurant-state
 BookRestaurant-timeRange
-GetWeather-O
+GetWeather-
 GetWeather-city
 GetWeather-condition_description
 GetWeather-condition_temperature
@@ -29,7 +29,7 @@ GetWeather-geographic_poi
 GetWeather-spatial_relation
 GetWeather-state
 GetWeather-timeRange
-PlayMusic-O
+PlayMusic-
 PlayMusic-album
 PlayMusic-artist
 PlayMusic-genre
@@ -39,7 +39,7 @@ PlayMusic-service
 PlayMusic-sort
 PlayMusic-track
 PlayMusic-year
-RateBook-O
+RateBook-
 RateBook-best_rating
 RateBook-object_name
 RateBook-object_part_of_series_type
@@ -47,10 +47,10 @@ RateBook-object_select
 RateBook-object_type
 RateBook-rating_unit
 RateBook-rating_value
-SearchCreativeWork-O
+SearchCreativeWork-
 SearchCreativeWork-object_name
 SearchCreativeWork-object_type
-SearchScreeningEvent-O
+SearchScreeningEvent-
 SearchScreeningEvent-location_name
 SearchScreeningEvent-movie_name
 SearchScreeningEvent-movie_type
