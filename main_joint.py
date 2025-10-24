@@ -161,7 +161,8 @@ def run_train(train_data_file, dev_data_file):
         f.write("Epoch\tLR\tIntent_Loss\tSlot_Loss\tIntent_Acc\tSlot_F1\tSent_Acc\n")
     
     for epoch in trange(config.epoch, desc="Epoch"):
-        print(scheduler.get_lr())
+        current_lr = scheduler.get_last_lr()[0]
+        print(current_lr)
         step = 0
         for i, batch in enumerate(tqdm(train_loader, desc="batch_nums")):
             step += 1
