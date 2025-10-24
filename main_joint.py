@@ -152,6 +152,14 @@ def run_train(train_data_file, dev_data_file):
     best_sent_acc = [0.0, 0.0, 0.0]
     scheduler = torch.optim.lr_scheduler.MultiStepLR(optimizer, [40, 70], gamma=config.lr_scheduler_gama, last_epoch=-1)
 
+    results_file_path = os.path.join(config.model_save_dir, "training_results.txt")
+    with open(results_file_path, 'w', encoding='utf-8') as f:
+        f.write(f"--- Starting Training ---\n")
+        f.write(f"Model: {config.model_path}\n")
+        f.write(f"Data: {config.data_path}\n")
+        f.write("-" * 30 + "\n")
+        f.write("Epoch\tLR\tIntent_Loss\tSlot_Loss\tIntent_Acc\tSlot_F1\tSent_Acc\n")
+    
     for epoch in trange(config.epoch, desc="Epoch"):
         print(scheduler.get_lr())
         step = 0
