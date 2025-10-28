@@ -91,7 +91,7 @@ def dev(model, dev_loader, idx2slot, idx2intent, results_writer):
                     f"Intent Pred: {pred_intent_str} (True: {true_intent_str})\n"
                     f"Slot Pred: {pred_slot_str}\n"
                     f"Slot True: {true_slot_str}\n"
-                    f"{"-" * 40}\n"
+                    f"{'-' * 40}\n"  
                 )
                 error_logs.append(error_string)
 
