@@ -27,7 +27,7 @@ def set_seed():
         torch.cuda.manual_seed_all(config.seed)
 
 
-def dev(model, dev_loader, idx2slot, idx2intent, results_writer):
+def dev(model, dev_loader, idx2slot, idx2intent):
 
     model.eval()
     eval_loss_intent = 0
