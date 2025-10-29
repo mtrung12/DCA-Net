@@ -18,7 +18,7 @@ num_attention_heads = 8
 # hyperparameters
 max_len = 32
 lr_scheduler_gama = 0.5
-batch_size= 32
+batch_size= 16
 epoch = 20
 seed = 9
 lr=0.001
